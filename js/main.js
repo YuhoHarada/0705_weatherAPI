@@ -1,7 +1,7 @@
 const result = document.getElementById("result")
 const nameMonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
-fetch('http://api.openweathermap.org/data/2.5/weather?q=Tokyo&APPID=fe0cdd95e182e5d4f060da5d5c9df070')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Tokyo&APPID=fe0cdd95e182e5d4f060da5d5c9df070')
     .then(response => response.json())
     .then((data) => { 
         console.log(data)
